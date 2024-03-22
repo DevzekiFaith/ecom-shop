@@ -3,9 +3,9 @@ import React from 'react'
 const Button = () => {
     return (
         <div>
-            <h1>This is the Reusable Button</h1>
+            {/* <h1>This is the Reusable Button</h1> */}
             <div>
-                <button className=" absolute top-[44rem] left-[3rem] bg-white text-black"> Click to Product Page</button>
+                <button className=" absolute top-[30rem] left-[5rem] bg-red-500 text-white px-4 py-4 shadow-2xl rounded-full"> Click to Product Page</button>
             </div>
         </div>
     )
