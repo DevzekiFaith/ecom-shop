@@ -13,10 +13,12 @@ const Render = () => {
 
   const openProfile = () => {
     setProfile(true);
+    alert("Open Profile Card");
   };
 
   const closeProfile = () => {
     setProfile(false);
+    alert("Close Profile Card");
   };
 
   return (
@@ -43,7 +45,7 @@ const Render = () => {
       </div>
       <div className='flex ml-[2rem] gap-4 border w-[12rem] mb-3 p-3 bg-slate-500 rounded-2xl'>
         <button className='border bg-blue-500 p-2 w-[6rem] rounded-full shadow-2xl' onClick={closeProfile}>Show</button>
-        <button className='border bg-green-500 p-2 w-[6rem] rounded-full shadow-2xl'onClick={openProfile } >Hide</button>
+        <button className='border bg-green-500 p-2 w-[6rem] rounded-full shadow-2xl' onClick={openProfile} >Hide</button>
       </div>
       <Footer />
     </div>
